@@ -11,9 +11,10 @@ export function Header() {
 
     const { onOpen } = useSidebarDrawer();
 
-    const isWideVersion = useBreakpointValue({base: false, lg: true})
-
-    
+    const isWideVersion = useBreakpointValue({
+        base: false,
+        lg: true
+    })    
 
     return (
         <Flex
